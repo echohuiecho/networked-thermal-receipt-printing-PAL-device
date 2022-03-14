@@ -1,0 +1,67 @@
+body {
+  overflow-x: hidden;
+}
+
+.bg-body {
+  background-color: $green-900;
+}
+
+.bg-green-700 {
+  background-color: $green-700;
+}
+
+.bg-green-800 {
+  background-color: $green-800;
+}
+
+.bg-cover {
+  object-fit: cover;
+}
+
+.zIndexModal {
+  z-index: $zindex-modal;
+}
+
+.full-width-wrapper {
+  width: 100vw;
+}
+
+.full-height-wrapper {
+  height: 100vh;
+}
+
+.img-thumb-wrapper {
+  width: 100px;
+  height: 100px;
+}
+
+.grid-img-wrapper {
+  // width: 25vw;
+}
+
+.img-object-fit {
+  object-fit: cover;
+}
+
+.height-70 {
+  height: 70vh;
+}
+
+.height-lg-70 {
+  //電腦版
+  @include pc-width{
+    height: 70vh;
+  }
+  //平板
+  @include pad-width{
+    height: 35vh;
+  }
+  //小平板
+  @include small-pad-width{
+    height: 35vh;
+  }
+  //手機
+  @include phone-width{
+    height: 35vh;
+  }
+}

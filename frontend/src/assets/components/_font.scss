@@ -1,0 +1,32 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  &.hk {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    &.semi-bold {
+      font-weight: 600;
+    }
+  }
+  &.en {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    &.semi-bold {
+      font-weight: 600;
+    }
+  }
+}
+
+.hk {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.en {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.mt-offset-2 {
+  margin-top: -2px;
+}

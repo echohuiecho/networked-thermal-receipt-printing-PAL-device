@@ -1,0 +1,18 @@
+// ~符號指向 /node_modules/ 資料夾
+@import "~bootstrap/scss/functions";
+@import "./helpers/variables"; // 載入 Custom 變數
+@import "~bootstrap/scss/mixins";
+@import '~bootstrap';
+
+// Material design icon
+@import '~material-icons/iconfont/material-icons.css';
+
+// Google Font
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&family=Titillium+Web:wght@400;600&display=swap');
+
+@import "./components/screen";
+@import "./components/wrapper";
+@import "./components/decorate";
+@import "./components/effects";
+@import "./components/icon";
+@import "./components/font";
